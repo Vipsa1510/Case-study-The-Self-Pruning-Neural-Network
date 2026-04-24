@@ -124,7 +124,7 @@ Run the notebook:
 
 ```bash
 Self_Pruning_Neural_Network.ipynb
-
+```
 ---
 
 # ⭐ Key Takeaways
