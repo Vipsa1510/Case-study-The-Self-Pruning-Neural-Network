@@ -125,14 +125,14 @@ Run the notebook:
 ```bash
 Self_Pruning_Neural_Network.ipynb
 
+---
 
 # ⭐ Key Takeaways
 
 * Implemented **self-pruning mechanism from scratch**
-* Demonstrated **accuracy vs sparsity trade-off**
 * Built a **dynamic pruning system during training**
 
----
+
 
 # 🙌 Final Note
 
