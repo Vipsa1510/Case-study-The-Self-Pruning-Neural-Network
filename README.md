@@ -1,5 +1,5 @@
 
-# 🚀 Case Study – Self-Pruning Neural Network
+#  Case Study – Self-Pruning Neural Network
 
 ##  
 
@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Preamble
+##  Preamble
 
 In real-world scenarios, deploying large neural networks is challenging due to memory and computational constraints. Model pruning is a common technique to reduce model size by removing less important weights.
 
@@ -15,7 +15,7 @@ This project implements a **self-pruning neural network**, where the model learn
 
 ---
 
-## 🎯 The Core Problem
+##  The Core Problem
 
 The objective is to design a neural network that can:
 
@@ -27,9 +27,9 @@ This is done by associating each weight with a learnable **gate parameter**.
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
-### 🔹 Prunable Linear Layer
+###  Prunable Linear Layer
 
 A custom `PrunableLinear` layer is implemented where:
 
@@ -39,7 +39,7 @@ A custom `PrunableLinear` layer is implemented where:
 
 ---
 
-### 🔹 Sparsity Regularization
+###  Sparsity Regularization
 
 The loss function is defined as:
 
@@ -50,7 +50,7 @@ The loss function is defined as:
 
 ---
 
-### 🔹 Training Strategy
+###  Training Strategy
 
 * Model trained on **CIFAR-10 dataset**
 * Multiple values of λ tested to observe trade-off
@@ -61,7 +61,7 @@ The loss function is defined as:
 
 ---
 
-## 📊 Results
+##  Results
 
 | Lambda | Test Accuracy | Sparsity (%) |
 | ------ | ------------- | ------------ |
@@ -69,7 +69,7 @@ The loss function is defined as:
 | 0.01   | 51.95%        | 1.72%        |
 | 0.02   | 50.94%        | 1.71%        |
 
-### 📈 Observation
+###  Observation
 
 * Increasing λ slightly reduces accuracy
 * Sparsity remains low (~1.7%), indicating weak pruning
@@ -77,7 +77,7 @@ The loss function is defined as:
 
 ---
 
-## 📊 Gate Distribution Analysis
+##  Gate Distribution Analysis
 
 The distribution of gate values shows most values concentrated in the range **0 to 0.1**, with an average of ~0.056.
 
@@ -88,7 +88,7 @@ This indicates:
 
 ---
 
-## 🧠 Conclusion
+##  Conclusion
 
 The self-pruning network successfully learns the classification task while demonstrating the effect of sparsity regularization.
 
@@ -96,7 +96,7 @@ Although sparsity is relatively low, the results clearly show the **trade-off be
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 * Apply stronger sparsity regularization (higher λ)
 * Use sharper gating mechanisms for more effective pruning
@@ -105,7 +105,7 @@ Although sparsity is relatively low, the results clearly show the **trade-off be
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 * Python
 * PyTorch
@@ -114,7 +114,7 @@ Although sparsity is relatively low, the results clearly show the **trade-off be
 
 ---
 
-## 📎 How to Run
+##  How to Run
 
 ```bash
 pip install torch torchvision matplotlib
@@ -127,14 +127,14 @@ Self_Pruning_Neural_Network.ipynb
 ```
 ---
 
-# ⭐ Key Takeaways
+#  Key Takeaways
 
 * Implemented **self-pruning mechanism from scratch**
 * Built a **dynamic pruning system during training**
 
 
 
-# 🙌 Final Note
+#  Final Note
 
 This project focuses on understanding and implementing **adaptive model pruning**. While sparsity achieved is modest, the approach validates the concept and highlights directions for improvement in practical scenarios.
 
