@@ -27,6 +27,15 @@ This is done by associating each weight with a learnable **gate parameter**.
 
 ---
 
+##  Tech Stack
+
+* Python
+* PyTorch
+* NumPy
+* Matplotlib
+
+---
+
 ##  Methodology
 
 ###  Prunable Linear Layer
@@ -98,14 +107,6 @@ Although sparsity is relatively low, the results clearly show the **trade-off be
 
 
 
-##  Tech Stack
-
-* Python
-* PyTorch
-* NumPy
-* Matplotlib
-
----
 
 
 
