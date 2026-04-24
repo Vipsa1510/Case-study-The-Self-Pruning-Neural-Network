@@ -96,14 +96,7 @@ Although sparsity is relatively low, the results clearly show the **trade-off be
 
 ---
 
-##  Future Work
 
-* Apply stronger sparsity regularization (higher λ)
-* Use sharper gating mechanisms for more effective pruning
-* Explore CNN-based architectures for improved accuracy
-* Apply hard pruning after training for better compression
-
----
 
 ##  Tech Stack
 
@@ -127,15 +120,9 @@ Self_Pruning_Neural_Network.ipynb
 ```
 ---
 
-#  Key Takeaways
-
-* Implemented **self-pruning mechanism from scratch**
-* Built a **dynamic pruning system during training**
 
 
 
-#  Final Note
 
-This project focuses on understanding and implementing **adaptive model pruning**. While sparsity achieved is modest, the approach validates the concept and highlights directions for improvement in practical scenarios.
 
 
