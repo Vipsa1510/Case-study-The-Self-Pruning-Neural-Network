@@ -107,18 +107,7 @@ Although sparsity is relatively low, the results clearly show the **trade-off be
 
 ---
 
-##  How to Run
 
-```bash
-pip install torch torchvision matplotlib
-```
-
-Run the notebook:
-
-```bash
-Self_Pruning_Neural_Network.ipynb
-```
----
 
 
 
